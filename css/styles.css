@@ -1,3 +1,5 @@
+/* 1600-1200*/
+/* 1684 +  */
 * {
   margin: 0;
   padding: 0;
@@ -42,3 +44,46 @@ i {
   width: 100%;
   clear: both;
   content: ''; }
+
+header .topHeader .guarantees_wrapper {
+  height: 80px; }
+  @media only screen and (max-width: 1684px) {
+    header .topHeader .guarantees_wrapper {
+      display: none; } }
+  header .topHeader .guarantees_wrapper .guarantees {
+    font-family: "MyriadProRegular";
+    font-size: 17px;
+    color: #5075e7; }
+
+header .topHeader .burgerNav {
+  height: 80px; }
+  @media only screen and (min-width: 1684px) {
+    header .topHeader .burgerNav {
+      display: none; } }
+
+header .topHeader .logo_wrapper {
+  height: 80px; }
+  header .topHeader .logo_wrapper .logo {
+    max-width: 100%; }
+
+header .topHeader .mainBtnWrappers {
+  padding-top: 22px;
+  height: 80px; }
+  header .topHeader .mainBtnWrappers .liveChat {
+    width: 70%;
+    padding: 12px 0px;
+    border-radius: 15px;
+    border: none;
+    font-family: "MyriadProRegular";
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%); }
+  header .topHeader .mainBtnWrappers .login {
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 15px;
+    border: none;
+    font-family: "MyriadProRegular";
+    font-size: 20px;
+    color: #fff;
+    background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%); }

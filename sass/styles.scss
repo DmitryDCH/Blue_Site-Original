@@ -3,3 +3,48 @@
 @import 'globalSettings';
 @import 'mixins';
 
+header{
+    .topHeader{
+        .guarantees_wrapper{
+            @include ResponsXLinL{
+                   display: none;
+                }
+            height: 80px;
+            .guarantees{
+                @include text($Riad-Regular, 17px, $Color-Guarantees);
+            }
+        }
+        .burgerNav{
+            @include  ResponsXlUP{
+                display: none;
+            }
+            height: 80px;
+        }
+        .logo_wrapper{
+            height: 80px;
+            .logo{
+                max-width: 100%;
+            }
+        }
+        .mainBtnWrappers{
+                padding-top: 22px;
+                height: 80px;
+            .liveChat{
+                width: 70%;
+                padding: 12px 0px;
+                border-radius: 15px;
+                border: none;
+                @include text($Riad-Regular, 20px, $Color-TextBtn);
+                background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
+                }
+            .login{
+                width: 100%;
+                padding: 12px 0px;
+                border-radius: 15px;
+                border: none;
+                @include text($Riad-Regular, 20px, $Color-TextBtn);
+                background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%);
+            }
+        }
+    }
+}

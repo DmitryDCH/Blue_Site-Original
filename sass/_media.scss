@@ -1,0 +1,12 @@
+/* 1600-1200*/
+@mixin ResponsXLinL {
+    @media only screen and (max-width: 1684px){
+        @content;
+    }
+}
+/* 1684 +  */
+@mixin ResponsXlUP {
+    @media only screen and (min-width: 1684px){
+        @content;
+    }
+}
