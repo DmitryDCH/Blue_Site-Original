@@ -1,6 +1,9 @@
 /* 1600-1200*/
 /* 1684 +  */
+/* 1684 -  */
 /* 340- */
+/* 1430 - 1200*/
+/* 992-*/
 * {
   margin: 0;
   padding: 0;
@@ -39,12 +42,6 @@
 
 i {
   font-style: normal; }
-
-.clearfix {
-  display: table;
-  width: 100%;
-  clear: both;
-  content: ''; }
 
 header .topHeader .guarantees_wrapper {
   height: 80px; }
@@ -197,3 +194,91 @@ header .middleHeader {
         font-family: "MyriadProRegular";
         font-size: 20px;
         color: #fff; }
+
+main {
+  padding-top: 50px; }
+  main .howItWorks .stepWrapper .imgWrapper {
+    padding-top: 50px; }
+    @media only screen and (max-width: 992px) {
+      main .howItWorks .stepWrapper .imgWrapper {
+        text-align: center; } }
+    main .howItWorks .stepWrapper .imgWrapper .form {
+      height: 131px;
+      width: 113px;
+      display: inline-block;
+      background: url(../img/Form-1.png) no-repeat; }
+    main .howItWorks .stepWrapper .imgWrapper .form3 {
+      height: 131px;
+      width: 113px;
+      display: inline-block;
+      background: url(../img/Form-3.png) no-repeat; }
+    main .howItWorks .stepWrapper .imgWrapper .form2 {
+      height: 131px;
+      width: 113px;
+      display: inline-block;
+      background: url(../img/Form-2.png) no-repeat; }
+    main .howItWorks .stepWrapper .imgWrapper .form4 {
+      height: 131px;
+      width: 113px;
+      display: inline-block;
+      background: url(../img/Form-4.png) no-repeat; }
+  main .howItWorks .stepWrapper .textWrapper {
+    padding: 50px 0px; }
+    main .howItWorks .stepWrapper .textWrapper .title {
+      font-family: "ProximaNova-Semibold";
+      font-size: 25px;
+      color: #171717; }
+      @media (min-width: 1200px) and (max-width: 1430px) {
+        main .howItWorks .stepWrapper .textWrapper .title {
+          font-family: "ProximaNova-Semibold";
+          font-size: 20px;
+          color: #171717; } }
+      @media only screen and (max-width: 992px) {
+        main .howItWorks .stepWrapper .textWrapper .title {
+          text-align: center; } }
+    main .howItWorks .stepWrapper .textWrapper .text {
+      font-family: "ProximaNova-Light";
+      font-size: 18px;
+      color: #171717; }
+      @media (min-width: 1200px) and (max-width: 1430px) {
+        main .howItWorks .stepWrapper .textWrapper .text {
+          font-family: "ProximaNova-Light";
+          font-size: 16px;
+          color: #171717; } }
+      @media only screen and (max-width: 992px) {
+        main .howItWorks .stepWrapper .textWrapper .text {
+          text-align: center; } }
+  main .howItWorks .textAboutHowItWorks .text {
+    font-family: "ProximaNova-Light";
+    font-size: 20px;
+    color: #19152d; }
+  main .howItWorks .BtnWrapper {
+    padding-top: 30px; }
+    main .howItWorks .BtnWrapper .read {
+      width: 100%;
+      padding: 12px 0px;
+      border-radius: 15px;
+      border: none;
+      font-family: "MyriadProRegular";
+      font-size: 20px;
+      color: #fff;
+      background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%); }
+      @media only screen and (max-width: 1684px) {
+        main .howItWorks .BtnWrapper .read {
+          font-family: "MyriadProRegular";
+          font-size: 13px;
+          color: #fff; } }
+    main .howItWorks .BtnWrapper .order {
+      width: 100%;
+      padding: 12px 0px;
+      border-radius: 15px;
+      border: none;
+      font-family: "MyriadProRegular";
+      font-size: 20px;
+      color: #fff;
+      background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%); }
+      @media only screen and (max-width: 1684px) {
+        main .howItWorks .BtnWrapper .order {
+          font-family: "MyriadProRegular";
+          font-size: 13px;
+          color: #fff; } }

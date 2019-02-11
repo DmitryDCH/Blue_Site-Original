@@ -10,11 +10,30 @@
         @content;
     }
 }
+/* 1684 -  */
+@mixin ResponsXldown {
+    @media only screen and (max-width: 1684px){
+        @content;
+    }
+}
 
 /* 340- */
 
 @mixin ResponsS {
     @media only screen and (max-width: 340px){
+        @content;
+    }
+}
+/* 1430 - 1200*/
+@mixin resp1430{
+   @media (min-width: 1200px) and (max-width: 1430px){
+       @content;
+   }
+}
+
+/* 992-*/
+@mixin resp992 {
+    @media only screen and (max-width: 992px){
         @content;
     }
 }
