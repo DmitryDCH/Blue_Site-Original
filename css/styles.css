@@ -4,6 +4,9 @@
 /* 340- */
 /* 1430 - 1200*/
 /* 992-*/
+/* 1700 - 1200 */
+/*1200- */
+/* 715- */
 * {
   margin: 0;
   padding: 0;
@@ -283,3 +286,69 @@ main {
           font-family: "MyriadProRegular";
           font-size: 13px;
           color: #fff; } }
+  main .choose .bgStar {
+    height: 461px;
+    background: linear-gradient(to left, #5075e7 0%, #8cadf4 100%);
+    box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75); }
+    main .choose .bgStar::before {
+      height: 367px;
+      width: 386px;
+      content: url(../img/starOne.png);
+      position: absolute;
+      opacity: 0.1;
+      left: 14%; }
+      @media only screen and (max-width: 1200px) {
+        main .choose .bgStar::before {
+          left: 32%; } }
+      @media only screen and (max-width: 715px) {
+        main .choose .bgStar::before {
+          display: none; } }
+  main .choose .textWrapper {
+    text-align: center;
+    padding-top: 50px; }
+    @media only screen and (max-width: 1200px) {
+      main .choose .textWrapper {
+        padding-top: 25px; } }
+    main .choose .textWrapper .whyChoozeTitle {
+      text-transform: uppercase;
+      font-family: "ProximaNova-Regular";
+      font-size: 69px;
+      color: #fff; }
+      @media (min-width: 1200px) and (max-width: 1730px) {
+        main .choose .textWrapper .whyChoozeTitle {
+          font-family: "ProximaNova-Regular";
+          font-size: 50px;
+          color: #fff; } }
+      @media only screen and (max-width: 715px) {
+        main .choose .textWrapper .whyChoozeTitle {
+          font-family: "ProximaNova-Regular";
+          font-size: 30px;
+          color: #fff; } }
+    main .choose .textWrapper .whyChoozeText {
+      font-family: "ProximaNova-Light";
+      font-size: 23px;
+      color: #fff; }
+      @media (min-width: 1200px) and (max-width: 1730px) {
+        main .choose .textWrapper .whyChoozeText {
+          font-family: "ProximaNova-Regular";
+          font-size: 20px;
+          color: #fff; } }
+      @media only screen and (max-width: 715px) {
+        main .choose .textWrapper .whyChoozeText {
+          font-family: "ProximaNova-Regular";
+          font-size: 16px;
+          color: #fff; } }
+  main .choose .listAbout {
+    padding-top: 30px; }
+    @media only screen and (max-width: 1200px) {
+      main .choose .listAbout {
+        padding-top: 25px; } }
+    main .choose .listAbout ul li {
+      font-family: "ProximaNova-Regular";
+      font-size: 19px;
+      color: #19152d; }
+      @media (min-width: 1200px) and (max-width: 1730px) {
+        main .choose .listAbout ul li {
+          font-family: "ProximaNova-Regular";
+          font-size: 15px;
+          color: #19152d; } }

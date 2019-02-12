@@ -37,3 +37,24 @@
         @content;
     }
 }
+
+/* 1700 - 1200 */
+@mixin resp1700-1200{
+   @media (min-width: 1200px) and (max-width: 1730px){
+       @content;
+   }
+}
+
+/*1200- */
+@mixin resp1200 {
+    @media only screen and (max-width: 1200px){
+        @content;
+    }
+}
+/* 715- */
+
+@mixin Respons715 {
+    @media only screen and (max-width: 715px){
+        @content;
+    }
+}

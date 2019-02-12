@@ -248,4 +248,65 @@ main{
             }
         }
     }
+    .choose{
+        .bgStar{
+            height: 461px;
+            background: linear-gradient(to left, #5075e7 0%, #8cadf4 100%);
+            box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+            &::before{
+                height: 367px;
+                width: 386px;
+                content: url(../img/starOne.png);
+                position: absolute;
+                opacity: 0.1;
+                left: 14%;
+                @include resp1200{
+                    left: 32%;
+                }
+                @include Respons715{
+                    display: none;
+                }
+            }
+        }
+        .textWrapper{
+            text-align: center;
+            padding-top: 50px;
+            @include resp1200{
+                padding-top: 25px;
+            }
+            .whyChoozeTitle{
+                text-transform: uppercase;
+                @include text($Proxima-Regular, 69px, $ColorWhyChooze);
+                @include resp1700-1200{
+                    @include text($Proxima-Regular, 50px, $ColorWhyChooze);
+                }
+                @include Respons715{
+                     @include text($Proxima-Regular, 30px, $ColorWhyChooze);
+                }
+            }
+            .whyChoozeText{
+                @include text($Proxima-Light, 23px, $ColorWhyChooze);
+                 @include resp1700-1200{
+                    @include text($Proxima-Regular, 20px, $ColorWhyChooze);
+                }
+                @include Respons715{
+                    @include text($Proxima-Regular, 16px, $ColorWhyChooze);
+                }
+            }
+        }
+        .listAbout{
+            padding-top: 30px;
+            @include resp1200{
+                padding-top: 25px;
+            }
+            ul{
+                li{
+                    @include text($Proxima-Regular, 19px, $ColorListWhyChooze );
+                     @include resp1700-1200{
+                        @include text($Proxima-Regular, 15px, $ColorListWhyChooze);
+                    }
+                }
+            }
+        }
+    }
 }
