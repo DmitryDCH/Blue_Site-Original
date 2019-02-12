@@ -165,31 +165,32 @@ main{
     .howItWorks{
         .stepWrapper{
             .imgWrapper{
-                padding-top: 50px;
+                padding-top: 60px;
+                text-align: center;
                 @include resp992{
                     text-align: center;
                 }
                 .form{
-                   height: 131px;
-                   width: 113px;
+                   height: 83px;
+                   width: 78px;
                    display: inline-block;
-                   background: url(../img/Form-1.png) no-repeat; 
+                   background: url(../img/Form-1.png) no-repeat;
                 }
                 .form3{
-                   height: 131px;
-                   width: 113px;
+                   height: 83px;
+                   width: 81px;
                    display: inline-block;
                    background: url(../img/Form-3.png) no-repeat; 
                 }
                  .form2{
-                   height: 131px;
-                   width: 113px;
+                   height: 83px;
+                   width: 79px;
                    display: inline-block;
                    background: url(../img/Form-2.png) no-repeat; 
                 }
                 .form4{
-                   height: 131px;
-                   width: 113px;
+                   height: 83px;
+                   width: 78px;
                    display: inline-block;
                    background: url(../img/Form-4.png) no-repeat; 
                 }

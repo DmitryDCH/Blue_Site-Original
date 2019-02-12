@@ -198,28 +198,29 @@ header .middleHeader {
 main {
   padding-top: 50px; }
   main .howItWorks .stepWrapper .imgWrapper {
-    padding-top: 50px; }
+    padding-top: 60px;
+    text-align: center; }
     @media only screen and (max-width: 992px) {
       main .howItWorks .stepWrapper .imgWrapper {
         text-align: center; } }
     main .howItWorks .stepWrapper .imgWrapper .form {
-      height: 131px;
-      width: 113px;
+      height: 83px;
+      width: 78px;
       display: inline-block;
       background: url(../img/Form-1.png) no-repeat; }
     main .howItWorks .stepWrapper .imgWrapper .form3 {
-      height: 131px;
-      width: 113px;
+      height: 83px;
+      width: 81px;
       display: inline-block;
       background: url(../img/Form-3.png) no-repeat; }
     main .howItWorks .stepWrapper .imgWrapper .form2 {
-      height: 131px;
-      width: 113px;
+      height: 83px;
+      width: 79px;
       display: inline-block;
       background: url(../img/Form-2.png) no-repeat; }
     main .howItWorks .stepWrapper .imgWrapper .form4 {
-      height: 131px;
-      width: 113px;
+      height: 83px;
+      width: 78px;
       display: inline-block;
       background: url(../img/Form-4.png) no-repeat; }
   main .howItWorks .stepWrapper .textWrapper {
