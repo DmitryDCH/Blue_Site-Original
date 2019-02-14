@@ -7,6 +7,7 @@
 /* 1700 - 1200 */
 /*1200- */
 /* 715- */
+/* 380-*/
 * {
   margin: 0;
   padding: 0;
@@ -256,6 +257,9 @@ main {
     font-family: "ProximaNova-Light";
     font-size: 20px;
     color: #19152d; }
+    @media only screen and (max-width: 992px) {
+      main .howItWorks .textAboutHowItWorks .text {
+        text-align: center; } }
   main .howItWorks .BtnWrapper {
     padding-top: 30px; }
     main .howItWorks .BtnWrapper .read {
@@ -352,3 +356,241 @@ main {
           font-family: "ProximaNova-Regular";
           font-size: 15px;
           color: #19152d; } }
+  @media only screen and (max-width: 992px) {
+    main .placeBanner {
+      display: none; } }
+  main .placeBanner .bannerWrapper {
+    height: 300px;
+    background-color: #e7e7e7;
+    text-align: center;
+    padding: 5%; }
+    @media only screen and (max-width: 1684px) {
+      main .placeBanner .bannerWrapper {
+        padding: 5%; } }
+    main .placeBanner .bannerWrapper .bannerText {
+      text-transform: uppercase;
+      font-family: "ProximaNova-Semibold";
+      font-size: 110px;
+      color: #fff; }
+      @media only screen and (max-width: 1684px) {
+        main .placeBanner .bannerWrapper .bannerText {
+          font-family: "ProximaNova-Semibold";
+          font-size: 75px;
+          color: #fff; } }
+  main .ourServices {
+    padding-top: 50px; }
+    main .ourServices .title p {
+      text-transform: uppercase;
+      font-family: "ProximaNova-Regular";
+      font-size: 49px;
+      color: #19152d; }
+    main .ourServices .text p {
+      font-family: "ProximaNova-Regular";
+      font-size: 20px;
+      color: #19152d;
+      padding-bottom: 50px; }
+    main .ourServices .book {
+      text-align: center;
+      height: 385px;
+      background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
+      box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+      padding-top: 40px; }
+      @media (min-width: 1200px) and (max-width: 1730px) {
+        main .ourServices .book {
+          padding-top: 50px; } }
+      main .ourServices .book .titleBook {
+        font-family: "ProximaNova-Regular";
+        font-size: 50px;
+        color: #fff; }
+        @media (min-width: 1200px) and (max-width: 1730px) {
+          main .ourServices .book .titleBook {
+            font-family: "ProximaNova-Regular";
+            font-size: 35px;
+            color: #fff; } }
+        @media only screen and (max-width: 380px) {
+          main .ourServices .book .titleBook {
+            font-family: "ProximaNova-Regular";
+            font-size: 30px;
+            color: #fff; } }
+      main .ourServices .book .textBook .textBookInner {
+        font-family: "ProximaNova-Regular";
+        font-size: 20px;
+        color: #fff; }
+        @media (min-width: 1200px) and (max-width: 1730px) {
+          main .ourServices .book .textBook .textBookInner {
+            font-family: "ProximaNova-Regular";
+            font-size: 18px;
+            color: #fff; } }
+      main .ourServices .book .buttonWrapper {
+        padding-top: 20px; }
+        main .ourServices .book .buttonWrapper button {
+          background: none;
+          border: 3px solid #fff;
+          border-radius: 15px;
+          padding: 10px 15px;
+          font-family: "ProximaNova-Regular";
+          font-size: 25px;
+          color: #fff; }
+          @media (min-width: 1200px) and (max-width: 1730px) {
+            main .ourServices .book .buttonWrapper button {
+              font-family: "ProximaNova-Regular";
+              font-size: 20px;
+              color: #fff; } }
+    main .ourServices .resume {
+      text-align: center;
+      height: 385px;
+      background: linear-gradient(to top, #fd517e 0%, #fa6f94 100%);
+      box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+      padding-top: 40px; }
+      @media (min-width: 1200px) and (max-width: 1730px) {
+        main .ourServices .resume {
+          padding-top: 35px; } }
+      @media only screen and (max-width: 992px) {
+        main .ourServices .resume {
+          margin-top: 30px; } }
+      @media only screen and (max-width: 380px) {
+        main .ourServices .resume {
+          padding-top: 10px; } }
+      main .ourServices .resume .titleResume {
+        font-family: "ProximaNova-Regular";
+        font-size: 50px;
+        color: #fff; }
+        @media (min-width: 1200px) and (max-width: 1730px) {
+          main .ourServices .resume .titleResume {
+            font-family: "ProximaNova-Regular";
+            font-size: 35px;
+            color: #fff; } }
+        @media only screen and (max-width: 1200px) {
+          main .ourServices .resume .titleResume {
+            font-family: "ProximaNova-Regular";
+            font-size: 45px;
+            color: #fff; } }
+        @media only screen and (max-width: 380px) {
+          main .ourServices .resume .titleResume {
+            font-family: "ProximaNova-Regular";
+            font-size: 40px;
+            color: #fff; } }
+        @media only screen and (max-width: 380px) {
+          main .ourServices .resume .titleResume {
+            font-family: "ProximaNova-Regular";
+            font-size: 30px;
+            color: #fff; } }
+      main .ourServices .resume .textResume .textResumeInner {
+        font-family: "ProximaNova-Regular";
+        font-size: 20px;
+        color: #fff; }
+      main .ourServices .resume .buttonWrapper {
+        padding-top: 20px; }
+        main .ourServices .resume .buttonWrapper button {
+          background: none;
+          border: 3px solid #fff;
+          border-radius: 15px;
+          padding: 10px 15px;
+          font-family: "ProximaNova-Regular";
+          font-size: 25px;
+          color: #fff; }
+          @media (min-width: 1200px) and (max-width: 1730px) {
+            main .ourServices .resume .buttonWrapper button {
+              font-family: "ProximaNova-Regular";
+              font-size: 20px;
+              color: #fff; } }
+    main .ourServices .case {
+      text-align: center;
+      height: 385px;
+      background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%);
+      box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+      padding-top: 40px; }
+      @media (min-width: 1200px) and (max-width: 1730px) {
+        main .ourServices .case {
+          padding-top: 50px; } }
+      @media only screen and (max-width: 1200px) {
+        main .ourServices .case {
+          margin-top: 30px; } }
+      main .ourServices .case .titleCase {
+        font-family: "ProximaNova-Regular";
+        font-size: 50px;
+        color: #fff; }
+        @media (min-width: 1200px) and (max-width: 1730px) {
+          main .ourServices .case .titleCase {
+            font-family: "ProximaNova-Regular";
+            font-size: 35px;
+            color: #fff; } }
+        @media only screen and (max-width: 380px) {
+          main .ourServices .case .titleCase {
+            font-family: "ProximaNova-Regular";
+            font-size: 30px;
+            color: #fff; } }
+      main .ourServices .case .textCase .textCaseInner {
+        font-family: "ProximaNova-Regular";
+        font-size: 20px;
+        color: #fff; }
+        @media (min-width: 1200px) and (max-width: 1730px) {
+          main .ourServices .case .textCase .textCaseInner {
+            font-family: "ProximaNova-Regular";
+            font-size: 18px;
+            color: #fff; } }
+      main .ourServices .case .buttonWrapper {
+        padding-top: 20px; }
+        main .ourServices .case .buttonWrapper button {
+          background: none;
+          border: 3px solid #fff;
+          border-radius: 15px;
+          padding: 10px 15px;
+          font-family: "ProximaNova-Regular";
+          font-size: 25px;
+          color: #fff; }
+          @media (min-width: 1200px) and (max-width: 1730px) {
+            main .ourServices .case .buttonWrapper button {
+              font-family: "ProximaNova-Regular";
+              font-size: 20px;
+              color: #fff; } }
+    main .ourServices .textAboutServ {
+      font-family: "ProximaNova-Light";
+      font-size: 20px;
+      color: #28253b; }
+      @media only screen and (max-width: 992px) {
+        main .ourServices .textAboutServ {
+          text-align: center; } }
+  main .services {
+    padding-top: 70px; }
+    main .services .servicesTitle .title {
+      text-transform: uppercase;
+      font-family: "ProximaNova-Regular";
+      font-size: 49px;
+      color: #19152d;
+      padding-bottom: 70px; }
+      @media only screen and (max-width: 380px) {
+        main .services .servicesTitle .title {
+          font-family: "ProximaNova-Regular";
+          font-size: 40px;
+          color: #19152d; } }
+    main .services .firstBlock {
+      text-align: center; }
+      main .services .firstBlock .img {
+        width: 70px;
+        height: 88px;
+        background: url(../img/user.png);
+        display: inline-block;
+        padding: 10px 0px; }
+      main .services .firstBlock .img2 {
+        width: 70px;
+        height: 88px;
+        background: url(../img/shield.png);
+        display: inline-block;
+        padding: 10px 0px; }
+    main .services .img3 {
+      width: 70px;
+      height: 88px;
+      background: url(../img/doc.png);
+      display: inline-block;
+      padding: 10px 0px; }
+    main .services .titleOfBlock {
+      padding: 5px 0px;
+      font-size: 20px;
+      font-family: "ProximaNova-Bold";
+      color: #19152d; }
+    main .services .text {
+      color: #19152d;
+      font-size: 18px;
+      font-family: "ProximaNova-Light";
+      padding-bottom: 40px; }

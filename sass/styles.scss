@@ -220,6 +220,9 @@ main{
         .textAboutHowItWorks{
             .text{
                 @include text($Proxima-Light, 20px, $ColorTextAfterHowItWorks);
+                @include resp992{
+                    text-align: center;
+                }
             }
         }
         .BtnWrapper{
@@ -309,4 +312,232 @@ main{
             }
         }
     }
-}
+    .placeBanner{
+        @include resp992{
+            display: none;
+        }
+        .bannerWrapper{
+            height: 300px;
+            background-color: $colorBgBanner;
+            text-align: center;
+            padding: 5%;
+            @include  ResponsXldown{
+                padding: 5%;
+            }
+            .bannerText{
+                text-transform: uppercase;
+                @include text($Proxima-Semibold, 110px, #fff);
+                @include ResponsXldown{
+                    @include text($Proxima-Semibold, 75px, #fff);
+                }
+            }
+        }
+    }
+    .ourServices{
+        padding-top: 50px;
+        .title{
+            p{
+                text-transform: uppercase;
+                @include text($Proxima-Regular, 49px, $ColorTextAfterHowItWorks);
+            }
+        }
+        .text{
+            p{
+               @include text($Proxima-Regular, 20px, $ColorTextAfterHowItWorks);  
+               padding-bottom: 50px;
+            }
+        }
+        .book{
+            text-align: center;
+            height: 385px;
+            background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
+            box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+            padding-top: 40px;
+            @include resp1700-1200{
+                padding-top: 50px;
+            }
+            .titleBook{
+                 @include text ($Proxima-Regular, 50px, $colorServices);
+                 @include resp1700-1200{
+                     @include text($Proxima-Regular,35px, $colorServices);
+                 }
+                  @include ResponsS380{
+                     @include text($Proxima-Regular, 30px, $colorServices);
+            }
+            }
+            .textBook{
+                .textBookInner{
+                   @include text ($Proxima-Regular, 20px, $colorServices);
+                   @include resp1700-1200{
+                       @include text($Proxima-Regular, 18px, $colorServices);
+                   }
+                }
+            }
+            .buttonWrapper{
+                 padding-top: 20px;
+                button{
+                    background: none;
+                    border: 3px solid #fff;
+                    border-radius: 15px;
+                    padding: 10px 15px;
+                    @include text ($Proxima-Regular, 25px, $colorServices);
+                    @include resp1700-1200{
+                        @include text($Proxima-Regular, 20px, $colorServices);
+                    }
+                }
+            }
+        }
+        .resume{
+            text-align: center;
+            height: 385px;
+            background: linear-gradient(to top, #fd517e 0%, #fa6f94 100%);
+            box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+            padding-top: 40px;
+            @include resp1700-1200{
+                padding-top: 35px;
+            }
+            @include resp992{
+                margin-top: 30px;
+            }
+            @include ResponsS380{
+                padding-top: 10px;
+            }
+            .titleResume{
+                 @include text ($Proxima-Regular, 50px, $colorServices);
+                 @include resp1700-1200{
+                     @include text($Proxima-Regular,35px, $colorServices);
+                }
+                @include resp1200 {
+                    @include text($Proxima-Regular, 45px, $colorServices);
+                }
+                @include ResponsS380{
+                     @include text($Proxima-Regular, 40px, $colorServices);
+                }
+                @include ResponsS380{
+                     @include text($Proxima-Regular, 30px, $colorServices);
+            }
+            }
+            .textResume{
+                .textResumeInner{
+                   @include text ($Proxima-Regular, 20px, $colorServices);
+                }
+            }
+            .buttonWrapper{
+                 padding-top: 20px;
+                button{
+                    background: none;
+                    border: 3px solid #fff;
+                    border-radius: 15px;
+                    padding: 10px 15px;
+                    @include text ($Proxima-Regular, 25px, $colorServices);
+                     @include resp1700-1200{
+                        @include text($Proxima-Regular, 20px, $colorServices);
+                    }
+                }
+            }
+        }
+        .case{
+            text-align: center;
+            height: 385px;
+              background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%);
+            box-shadow: 4px 2px 8px rgba(185, 185, 185, 0.75);
+            padding-top: 40px;
+             @include resp1700-1200{
+                padding-top: 50px;
+            }
+            @include resp1200{
+                margin-top: 30px;
+            }
+            .titleCase{
+                 @include text ($Proxima-Regular, 50px, $colorServices);
+                 @include resp1700-1200{
+                     @include text($Proxima-Regular,35px, $colorServices);
+                 }
+                  @include ResponsS380{
+                     @include text($Proxima-Regular, 30px, $colorServices);
+            }
+            }
+            .textCase{
+                .textCaseInner{
+                   @include text ($Proxima-Regular, 20px, $colorServices);
+                   @include resp1700-1200{
+                       @include text($Proxima-Regular, 18px, $colorServices);
+                   }
+                }
+            }
+            .buttonWrapper{
+                 padding-top: 20px;
+                button{
+                    background: none;
+                    border: 3px solid #fff;
+                    border-radius: 15px;
+                    padding: 10px 15px;
+                    @include text ($Proxima-Regular, 25px, $colorServices);
+                     @include resp1700-1200{
+                        @include text($Proxima-Regular, 20px, $colorServices);
+                    }
+                }
+            }
+        }
+        .textAboutServ{
+            @include text($Proxima-Light, 20px, #28253b);
+            @include resp992{
+                text-align: center;
+            }
+        }
+    }
+    .services{
+        padding-top: 70px;
+        .servicesTitle{
+            .title{
+                text-transform: uppercase;
+                @include text($Proxima-Regular, 49px,$ColorTextAfterHowItWorks );
+                padding-bottom: 70px;
+                @include ResponsS380{
+                    @include text($Proxima-Regular, 40px,$ColorTextAfterHowItWorks);
+                }
+            }
+        }
+    .firstBlock{
+        text-align: center;
+        .img{
+            width: 70px;
+            height: 88px;
+            background: url(../img/user.png);
+            display: inline-block;
+            padding: 10px 0px;
+               
+            }
+        .img2{
+            width: 70px;
+            height: 88px;
+            background: url(../img/shield.png);
+            display: inline-block;
+            padding: 10px 0px;  
+        }
+    }
+        .img3{
+            width: 70px;
+            height: 88px;
+            background: url(../img/doc.png);
+            display: inline-block;
+            padding: 10px 0px;
+        }
+        .titleOfBlock{
+            padding: 5px 0px;
+            font-size: 20px;
+            font-family: $Proxima-Bold;
+            color: $ColorTextAfterHowItWorks;
+        }
+        .text{
+            color: $ColorTextAfterHowItWorks;
+            font-size: 18px;
+            font-family: $Proxima-Light; 
+            padding-bottom: 40px;
+        }
+    }    
+}   
+
+        
+    
+
