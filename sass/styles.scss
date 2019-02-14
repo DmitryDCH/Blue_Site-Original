@@ -536,7 +536,165 @@ main{
             padding-bottom: 40px;
         }
     }    
-}   
+}  
+footer{
+    .footerNav{
+        background-color: $colorBgFooterNav;
+        @include ResponsXldown{
+            display: none;
+        }
+        .navFooterWrapper{
+            ul{
+                padding: 20px 0px;
+                display: inline-block;
+                li{
+                    display: inline-block;
+                    padding-left: 10px;
+                    border-right: 2px solid #fff;
+                    &:last-child{
+                        border-right: none;
+                    }
+                    a{
+                        font-size: 16px;
+                        font-family: $Proxima-Light;
+                        color:$colorTextFooterNav;
+                        padding-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .mainFooter{
+        background-color: $BgMainFooter;
+        padding: 50px 0px 0px 0px;
+        @include resp890{
+                padding: 0px;
+            }
+        .aboutUs{
+            @include resp890{
+                display: none;
+            }
+             @include ResponsXldown{
+            display: none;
+            }
+            .aboutUsTitle{
+                .title{
+                    @include text($Proxima-Semibold, 20px, #fff);
+                }
+            }
+            .aboutUsText{
+                .text{
+                    @include text($Proxima-Light, 18px, #fff);
+                    padding-top: 30px;
+                }
+            }
+        }
+        .newLetter{
+            @include resp890{
+                display: none;
+            }
+            .letterTitle{
+                .title{
+                    @include text($Proxima-Semibold,20px, #fff);
+                }
+            }
+            .textLetter{
+                .text{
+                    @include text($Proxima-Light, 18px, #fff);
+                    padding-top: 30px;
+                }
+            }
+            .buttonMail{
+                 padding: 27px 0px;
+                .button{
+                   padding: 12px 22px;
+                   width: 253px;
+                   text-align: left;
+                   border-bottom-left-radius: 15px;
+                   border-top-left-radius: 15px;
+                   background: none;
+                    @include text($Proxima-Light, 18px, #fff);
+                    border: 1px solid #394050;
+                }
+                .btnInn{
+                    border: 1px solid #394050;
+                    border-bottom-right-radius: 15px;
+                    border-top-right-radius: 15px;
+                    width: 40px;
+                    padding: 13px 22px;
+                    background-color: #394050;
+                    i{
+                        color: #fff;
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .contactUs{
+            @include resp890{
+                display: none;
+            }
+            .contactTitle{
+                padding-bottom: 30px;
+                .title{
+                    @include text($Proxima-Semibold, 20px, #fff);
+                }
+            }
+            .contactList{
+                .first{
+                    @include text($Proxima-Light, 18px, #fff);
+                    i{
+                        color: #65b5eb;
+                    }
+                }
+                .second{
+                    padding-top: 5px;
+                     @include text($Proxima-Light, 18px, #fff);
+                    i{
+                        color: #65b5eb;
+                    }
+                }
+                .third{
+                    padding-top: 5px;
+                     @include text($Proxima-Light, 18px, #fff);
+                    i{
+                        color: #65b5eb;
+                    }
+                }
+            }
+        }
+        .usefullLinks{
+            @include resp890{
+                display: none;
+            }
+                .linksTitle{
+                    .title{
+                        @include text($Proxima-Semibold, 20px, #fff);
+                    }
+                } 
+            .linksList{
+                padding-top: 30px;
+                ul{
+                    li{
+                        @include text($Proxima-Light, 18px, #fff);
+                        i{
+                            padding-right: 10px;
+                            color: #65b5eb;
+                        }
+                    }
+                }
+            }    
+        }
+    }
+    .copyWrite{
+        text-align: center;
+        padding: 50px 0px 15px 0px;
+        @include text($Proxima-Light, 18px, #fff);
+        @include resp890{
+                padding: 0px 0px 20px 0px;
+            }
+    }
+} 
 
         
     

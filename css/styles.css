@@ -8,6 +8,7 @@
 /*1200- */
 /* 715- */
 /* 380-*/
+/* 890px*/
 * {
   margin: 0;
   padding: 0;
@@ -594,3 +595,135 @@ main {
       font-size: 18px;
       font-family: "ProximaNova-Light";
       padding-bottom: 40px; }
+
+footer .footerNav {
+  background-color: #30323a; }
+  @media only screen and (max-width: 1684px) {
+    footer .footerNav {
+      display: none; } }
+  footer .footerNav .navFooterWrapper ul {
+    padding: 20px 0px;
+    display: inline-block; }
+    footer .footerNav .navFooterWrapper ul li {
+      display: inline-block;
+      padding-left: 10px;
+      border-right: 2px solid #fff; }
+      footer .footerNav .navFooterWrapper ul li:last-child {
+        border-right: none; }
+      footer .footerNav .navFooterWrapper ul li a {
+        font-size: 16px;
+        font-family: "ProximaNova-Light";
+        color: #fff;
+        padding-right: 20px; }
+
+footer .mainFooter {
+  background-color: #0a1127;
+  padding: 50px 0px 0px 0px; }
+  @media only screen and (max-width: 890px) {
+    footer .mainFooter {
+      padding: 0px; } }
+  @media only screen and (max-width: 890px) {
+    footer .mainFooter .aboutUs {
+      display: none; } }
+  @media only screen and (max-width: 1684px) {
+    footer .mainFooter .aboutUs {
+      display: none; } }
+  footer .mainFooter .aboutUs .aboutUsTitle .title {
+    font-family: "ProximaNova-Semibold";
+    font-size: 20px;
+    color: #fff; }
+  footer .mainFooter .aboutUs .aboutUsText .text {
+    font-family: "ProximaNova-Light";
+    font-size: 18px;
+    color: #fff;
+    padding-top: 30px; }
+  @media only screen and (max-width: 890px) {
+    footer .mainFooter .newLetter {
+      display: none; } }
+  footer .mainFooter .newLetter .letterTitle .title {
+    font-family: "ProximaNova-Semibold";
+    font-size: 20px;
+    color: #fff; }
+  footer .mainFooter .newLetter .textLetter .text {
+    font-family: "ProximaNova-Light";
+    font-size: 18px;
+    color: #fff;
+    padding-top: 30px; }
+  footer .mainFooter .newLetter .buttonMail {
+    padding: 27px 0px; }
+    footer .mainFooter .newLetter .buttonMail .button {
+      padding: 12px 22px;
+      width: 253px;
+      text-align: left;
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+      background: none;
+      font-family: "ProximaNova-Light";
+      font-size: 18px;
+      color: #fff;
+      border: 1px solid #394050; }
+    footer .mainFooter .newLetter .buttonMail .btnInn {
+      border: 1px solid #394050;
+      border-bottom-right-radius: 15px;
+      border-top-right-radius: 15px;
+      width: 40px;
+      padding: 13px 22px;
+      background-color: #394050; }
+      footer .mainFooter .newLetter .buttonMail .btnInn i {
+        color: #fff;
+        font-size: 20px; }
+  @media only screen and (max-width: 890px) {
+    footer .mainFooter .contactUs {
+      display: none; } }
+  footer .mainFooter .contactUs .contactTitle {
+    padding-bottom: 30px; }
+    footer .mainFooter .contactUs .contactTitle .title {
+      font-family: "ProximaNova-Semibold";
+      font-size: 20px;
+      color: #fff; }
+  footer .mainFooter .contactUs .contactList .first {
+    font-family: "ProximaNova-Light";
+    font-size: 18px;
+    color: #fff; }
+    footer .mainFooter .contactUs .contactList .first i {
+      color: #65b5eb; }
+  footer .mainFooter .contactUs .contactList .second {
+    padding-top: 5px;
+    font-family: "ProximaNova-Light";
+    font-size: 18px;
+    color: #fff; }
+    footer .mainFooter .contactUs .contactList .second i {
+      color: #65b5eb; }
+  footer .mainFooter .contactUs .contactList .third {
+    padding-top: 5px;
+    font-family: "ProximaNova-Light";
+    font-size: 18px;
+    color: #fff; }
+    footer .mainFooter .contactUs .contactList .third i {
+      color: #65b5eb; }
+  @media only screen and (max-width: 890px) {
+    footer .mainFooter .usefullLinks {
+      display: none; } }
+  footer .mainFooter .usefullLinks .linksTitle .title {
+    font-family: "ProximaNova-Semibold";
+    font-size: 20px;
+    color: #fff; }
+  footer .mainFooter .usefullLinks .linksList {
+    padding-top: 30px; }
+    footer .mainFooter .usefullLinks .linksList ul li {
+      font-family: "ProximaNova-Light";
+      font-size: 18px;
+      color: #fff; }
+      footer .mainFooter .usefullLinks .linksList ul li i {
+        padding-right: 10px;
+        color: #65b5eb; }
+
+footer .copyWrite {
+  text-align: center;
+  padding: 50px 0px 15px 0px;
+  font-family: "ProximaNova-Light";
+  font-size: 18px;
+  color: #fff; }
+  @media only screen and (max-width: 890px) {
+    footer .copyWrite {
+      padding: 0px 0px 20px 0px; } }
