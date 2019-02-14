@@ -36,6 +36,9 @@ header{
                 border: none;
                 @include text($Riad-Regular, 20px, $Color-TextBtn);
                 background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%);
+                @include ResponsS350{
+                    @include text($Riad-Regular, 15px, $Color-TextBtn);
+                }
                 }
             .login{
                 width: 100%;
@@ -44,6 +47,9 @@ header{
                 border: none;
                 @include text($Riad-Regular, 20px, $Color-TextBtn);
                 background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%);
+                 @include ResponsS350{
+                    @include text($Riad-Regular, 15px, $Color-TextBtn);
+                }
             }
         }
         .hr{
@@ -117,6 +123,9 @@ header{
                 padding-bottom: 10px;
                 .title{
                     @include text($Proxima-Regular,30px,$ColorCalcTitle);
+                    @include ResponsS350{
+                        @include text($Proxima-Regular,25px,$ColorCalcTitle);
+                    }
                 }
             }
             .calc_inner{
@@ -155,6 +164,9 @@ header{
                     border: none;
                     background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%);
                     @include text( $Riad-Regular,20px,$Color-TextBtn);
+                    @include ResponsS350{
+                    @include text($Riad-Regular, 15px, $Color-TextBtn);
+                }
                 }
             }
         }
@@ -339,12 +351,18 @@ main{
             p{
                 text-transform: uppercase;
                 @include text($Proxima-Regular, 49px, $ColorTextAfterHowItWorks);
+                @include ResponsS350{
+                    @include text($Proxima-Regular, 35px, $ColorTextAfterHowItWorks);
+                }
             }
         }
         .text{
             p{
                @include text($Proxima-Regular, 20px, $ColorTextAfterHowItWorks);  
                padding-bottom: 50px;
+               @include ResponsS350{
+                    text-align: center;
+                }
             }
         }
         .book{
@@ -371,6 +389,9 @@ main{
                    @include resp1700-1200{
                        @include text($Proxima-Regular, 18px, $colorServices);
                    }
+                    @include ResponsS350{
+                    @include text($Proxima-Regular, 16px, $colorServices);
+                }
                 }
             }
             .buttonWrapper{
@@ -384,6 +405,9 @@ main{
                     @include resp1700-1200{
                         @include text($Proxima-Regular, 20px, $colorServices);
                     }
+                    @include ResponsS350{
+                    @include text($Proxima-Regular, 16px, $colorServices);
+                }
                 }
             }
         }
@@ -416,10 +440,16 @@ main{
                 @include ResponsS380{
                      @include text($Proxima-Regular, 30px, $colorServices);
             }
+             @include ResponsS350{
+                   padding-top: 50px;
+                }
             }
             .textResume{
                 .textResumeInner{
                    @include text ($Proxima-Regular, 20px, $colorServices);
+                    @include ResponsS350{
+                    @include text($Proxima-Regular, 16px, $colorServices);
+                }
                 }
             }
             .buttonWrapper{
@@ -433,6 +463,9 @@ main{
                      @include resp1700-1200{
                         @include text($Proxima-Regular, 20px, $colorServices);
                     }
+                     @include ResponsS350{
+                    @include text($Proxima-Regular, 16px, $colorServices);
+                }
                 }
             }
         }
@@ -463,6 +496,9 @@ main{
                    @include resp1700-1200{
                        @include text($Proxima-Regular, 18px, $colorServices);
                    }
+                    @include ResponsS350{
+                    @include text($Proxima-Regular, 16px, $colorServices);
+                }
                 }
             }
             .buttonWrapper{
@@ -476,6 +512,9 @@ main{
                      @include resp1700-1200{
                         @include text($Proxima-Regular, 20px, $colorServices);
                     }
+                     @include ResponsS350{
+                    @include text($Proxima-Regular, 16px, $colorServices);
+                }
                 }
             }
         }
@@ -495,6 +534,9 @@ main{
                 padding-bottom: 70px;
                 @include ResponsS380{
                     @include text($Proxima-Regular, 40px,$ColorTextAfterHowItWorks);
+                }
+                 @include ResponsS350{
+                    @include text($Proxima-Regular, 24px, $ColorTextAfterHowItWorks);
                 }
             }
         }

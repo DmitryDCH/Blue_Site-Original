@@ -9,6 +9,7 @@
 /* 715- */
 /* 380-*/
 /* 890px*/
+/*350 */
 * {
   margin: 0;
   padding: 0;
@@ -81,6 +82,11 @@ header .topHeader .mainBtnWrappers {
     font-size: 20px;
     color: #fff;
     background: linear-gradient(to top, #9219d7 0%, #c16ef0 100%); }
+    @media only screen and (max-width: 350px) {
+      header .topHeader .mainBtnWrappers .liveChat {
+        font-family: "MyriadProRegular";
+        font-size: 15px;
+        color: #fff; } }
   header .topHeader .mainBtnWrappers .login {
     width: 100%;
     padding: 12px 0px;
@@ -90,6 +96,11 @@ header .topHeader .mainBtnWrappers {
     font-size: 20px;
     color: #fff;
     background: linear-gradient(to top, #5075e7 0%, #8cadf4 100%); }
+    @media only screen and (max-width: 350px) {
+      header .topHeader .mainBtnWrappers .login {
+        font-family: "MyriadProRegular";
+        font-size: 15px;
+        color: #fff; } }
 
 header .topHeader .hr {
   background: url(../img/hr.png) 20% 50%;
@@ -168,6 +179,11 @@ header .middleHeader {
         font-family: "ProximaNova-Regular";
         font-size: 30px;
         color: #9824da; }
+        @media only screen and (max-width: 350px) {
+          header .middleHeader .calculator_wrapper .calc_title_wrapper .title {
+            font-family: "ProximaNova-Regular";
+            font-size: 25px;
+            color: #9824da; } }
     header .middleHeader .calculator_wrapper .calc_inner .capture_wrapper {
       padding-left: 10px;
       padding-bottom: 5px;
@@ -199,6 +215,11 @@ header .middleHeader {
         font-family: "MyriadProRegular";
         font-size: 20px;
         color: #fff; }
+        @media only screen and (max-width: 350px) {
+          header .middleHeader .calculator_wrapper .calcBTN_wrapper .mainCalcButton {
+            font-family: "MyriadProRegular";
+            font-size: 15px;
+            color: #fff; } }
 
 main {
   padding-top: 50px; }
@@ -385,11 +406,19 @@ main {
       font-family: "ProximaNova-Regular";
       font-size: 49px;
       color: #19152d; }
+      @media only screen and (max-width: 350px) {
+        main .ourServices .title p {
+          font-family: "ProximaNova-Regular";
+          font-size: 35px;
+          color: #19152d; } }
     main .ourServices .text p {
       font-family: "ProximaNova-Regular";
       font-size: 20px;
       color: #19152d;
       padding-bottom: 50px; }
+      @media only screen and (max-width: 350px) {
+        main .ourServices .text p {
+          text-align: center; } }
     main .ourServices .book {
       text-align: center;
       height: 385px;
@@ -422,6 +451,11 @@ main {
             font-family: "ProximaNova-Regular";
             font-size: 18px;
             color: #fff; } }
+        @media only screen and (max-width: 350px) {
+          main .ourServices .book .textBook .textBookInner {
+            font-family: "ProximaNova-Regular";
+            font-size: 16px;
+            color: #fff; } }
       main .ourServices .book .buttonWrapper {
         padding-top: 20px; }
         main .ourServices .book .buttonWrapper button {
@@ -436,6 +470,11 @@ main {
             main .ourServices .book .buttonWrapper button {
               font-family: "ProximaNova-Regular";
               font-size: 20px;
+              color: #fff; } }
+          @media only screen and (max-width: 350px) {
+            main .ourServices .book .buttonWrapper button {
+              font-family: "ProximaNova-Regular";
+              font-size: 16px;
               color: #fff; } }
     main .ourServices .resume {
       text-align: center;
@@ -476,10 +515,18 @@ main {
             font-family: "ProximaNova-Regular";
             font-size: 30px;
             color: #fff; } }
+        @media only screen and (max-width: 350px) {
+          main .ourServices .resume .titleResume {
+            padding-top: 50px; } }
       main .ourServices .resume .textResume .textResumeInner {
         font-family: "ProximaNova-Regular";
         font-size: 20px;
         color: #fff; }
+        @media only screen and (max-width: 350px) {
+          main .ourServices .resume .textResume .textResumeInner {
+            font-family: "ProximaNova-Regular";
+            font-size: 16px;
+            color: #fff; } }
       main .ourServices .resume .buttonWrapper {
         padding-top: 20px; }
         main .ourServices .resume .buttonWrapper button {
@@ -494,6 +541,11 @@ main {
             main .ourServices .resume .buttonWrapper button {
               font-family: "ProximaNova-Regular";
               font-size: 20px;
+              color: #fff; } }
+          @media only screen and (max-width: 350px) {
+            main .ourServices .resume .buttonWrapper button {
+              font-family: "ProximaNova-Regular";
+              font-size: 16px;
               color: #fff; } }
     main .ourServices .case {
       text-align: center;
@@ -530,6 +582,11 @@ main {
             font-family: "ProximaNova-Regular";
             font-size: 18px;
             color: #fff; } }
+        @media only screen and (max-width: 350px) {
+          main .ourServices .case .textCase .textCaseInner {
+            font-family: "ProximaNova-Regular";
+            font-size: 16px;
+            color: #fff; } }
       main .ourServices .case .buttonWrapper {
         padding-top: 20px; }
         main .ourServices .case .buttonWrapper button {
@@ -544,6 +601,11 @@ main {
             main .ourServices .case .buttonWrapper button {
               font-family: "ProximaNova-Regular";
               font-size: 20px;
+              color: #fff; } }
+          @media only screen and (max-width: 350px) {
+            main .ourServices .case .buttonWrapper button {
+              font-family: "ProximaNova-Regular";
+              font-size: 16px;
               color: #fff; } }
     main .ourServices .textAboutServ {
       font-family: "ProximaNova-Light";
@@ -564,6 +626,11 @@ main {
         main .services .servicesTitle .title {
           font-family: "ProximaNova-Regular";
           font-size: 40px;
+          color: #19152d; } }
+      @media only screen and (max-width: 350px) {
+        main .services .servicesTitle .title {
+          font-family: "ProximaNova-Regular";
+          font-size: 24px;
           color: #19152d; } }
     main .services .firstBlock {
       text-align: center; }
